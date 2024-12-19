@@ -41,6 +41,25 @@ The movie management system is a minimalist command-line interface application d
 - Python 3.8 or higher.
 - Pipenv for dependency management.
 
+## Instructions  
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd movie-management-system
+   ```
+2. Install dependencies:
+   ```bash
+   pipenv install
+   ```
+3. Run the application:
+   ```bash
+   pipenv run python app.py
+   ```
+   
+   
+
+
 
 
 
