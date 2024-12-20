@@ -56,6 +56,65 @@ The movie management system is a minimalist command-line interface application d
    ```bash
    pipenv run python app.py
    ```
+4. Example Workflow:
+   * Start the application to access the main menu.
+   * To add a new genre:
+       - Navigate to "Manage Genres" and select "Add a Genre."
+       - Enter a name for the new genre (e.g., "Action").
+   * To add a movie:
+       - Navigate to "Manage Movies" and select "Add a Movie."
+       - Provide the movie title, release year, and select the newly added genre (e.g., "Action").
+   * To view all movies:
+       - Select "View All Movies" under "Manage Movies."
+       - Review the list of stored movies with their details, including associated genres.
+   * To delete a movie:
+       - Select "Delete a Movie" under "Manage Movies."
+       - Input the movie ID to remove it from the collection.
+    * To delete a Genre:  
+       - Navigate to the "Manage Genres" section.  
+       - Select "Delete a Genre" and provide the genre ID.
+             
+5. Follow the on-screen menu to:  
+  * Add, view, or delete movies.  
+  * Add, view, or delete genres.  
+  * Explore movies associated with specific genres.  
+ 
+6. Exit the application by selecting the "Exit" option from the main menu.
+
+## Technologies Used  
+
+**Python:** Core programming language.    
+**SQLAlchemy:** ORM for database interactions.    
+**SQLite:** Lightweight database for data persistence.  
+**Pipenv:** Dependency management tool.  
+
+## Support and Contact Details  
+
+If you have any questions, or suggestions, or need assistance, please contact:    
+
+- Email: <levy.wechuli@student.moringaschool.com>
+
+  ## License
+
+  This project is licensed under the MIT License.
+
+  Copyright &copy;2024. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.  
+
+
+
+
+
+   
+
+   
+         
+      
    
    
 
